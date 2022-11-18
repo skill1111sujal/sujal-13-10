@@ -17,7 +17,7 @@ int main()
 	for(i=0;i<5;i++)
 	{
 		printf("SCIENCE[%d]=",i);
-		scanrf("%d",&science[i]);
+		scanf("%d",&science[i]);
 	}
 	
 	printf("MATHS\tENGLISH SCIENCE\tTOTAL\tPER\tGRADE");
@@ -28,7 +28,7 @@ int main()
 		printf("\t%d",english[i]);
 		printf("\t%d",science[i]);
 
-	Sum=maths[i]+english[i]+science[i];
+	sum=maths[i]+english[i]+science[i];
 	printf("\t%d",sum);
 
 	per=(maths[i]+english[i]+science[i])/3;
@@ -55,6 +55,8 @@ int main()
 		printf("\tD");
 	}
 	
-       }
+       
    }
+
+} 
 	

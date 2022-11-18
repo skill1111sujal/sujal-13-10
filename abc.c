@@ -21,7 +21,8 @@ int main()
 			printf("b[%d][%d]:",i,j);
 			scanf("%d",&b[i][j]);
 		
-	}
+		}
+	}	
 
 //for(i=0;i<3;i++)
 //{
@@ -47,7 +48,7 @@ for(i=0;i<3;i++)
 	
 	total=a[i][j] + b[i][j];
 	printf("\n%d \t\t\t%d \t\t%d",a[i][j],b[i][j],total);
-	}
+}
 	printf("\n");
 }
 
