@@ -15,7 +15,7 @@ int main()
     printf("Enter a positive integer: ");
     scanf("%d",&n);
     printf("Factorial of %d = %d", n, multiply(n));
-    return 0;
+ s   return 0;
  }
 
 
